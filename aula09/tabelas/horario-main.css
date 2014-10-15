@@ -1,0 +1,43 @@
+/*Em modo Collapse*/
+/*
+td, th{
+    border:1px solid lightgray;
+}
+
+table {
+    border-spacing:0px;
+}
+    */
+
+
+.container { 
+  margin:0 auto;
+  padding: 12px; 
+  width: 720px; 
+}
+
+
+td, th{
+    border-right:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+    padding:10px;
+    text-align:center;
+    vertical-align:middle;
+}
+table{
+    border-left:1px solid lightgray;
+    border-top:1px solid lightgray;
+    
+}
+tr:nth-child(even) {
+    background-color:lightgray;
+}
+
+table {
+    border-spacing:0px;
+    border-collapse:separate;
+}
+.classroom {
+    background-color:lightgreen;
+}
+
